@@ -1,18 +1,18 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @post.name %>
-</p>
-
-<p>
   <strong>Description:</strong>
   <%= @post.description %>
 </p>
 
 <p>
+  <strong>Section:</strong>
+  <%= @post.section %>
+</p>
+
+<p>
   <strong>Image:</strong>
-  <%= @post.image %>
+  <%= image_tag @post.image.thumb.url %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
