@@ -1,3 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-nav>li>a.logo {
+  padding: 0px;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav>li.function {
+  float: right;
+}
