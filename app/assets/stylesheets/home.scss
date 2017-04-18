@@ -10,6 +10,9 @@
   width: 100%;
 }
 
-.nav>li.function {
+.container-fluid {
+  background-color: black;
+}
+.nav>li.function, .function {
   float: right;
 }
