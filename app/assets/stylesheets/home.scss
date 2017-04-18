@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+nav.navbar {
+  border-radius: 0px;
+}
+
 .navbar-nav>li>a.logo {
   padding: 0px;
 }
@@ -13,6 +17,23 @@
 .container-fluid {
   background-color: black;
 }
-.nav>li.function, .function {
+
+.singed_in {
   float: right;
+  height: 30px;
+  margin: 10px 0px 10px 10px;
+}
+
+.dropdown-toggle {
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.btn-mute {
+  background-color: black;
+  outline: none;
+  border: none;
 }
